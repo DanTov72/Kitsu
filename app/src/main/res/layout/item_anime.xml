@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    app:cardElevation="6dp">
+
+    <ImageView
+        android:id="@+id/imageViewAnimePicture"
+        android:layout_width="242dp"
+        android:layout_height="353dp"
+        android:elevation="100dp"
+        android:scaleType="centerCrop"
+        tools:src="@tools:sample/avatars">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textViewAnimeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:text="Anime"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</androidx.cardview.widget.CardView>
