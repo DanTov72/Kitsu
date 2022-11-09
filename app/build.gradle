@@ -5,8 +5,11 @@ plugins {
     // Kapt
     id("kotlin-kapt")
 
-    // Hilt
+    //Hilt
     id("com.google.dagger.hilt.android")
+
+    // Save Args
+    id("androidx.navigation.safeargs")
 }
 
 android {
